@@ -228,12 +228,12 @@ YouTube , Google or Wikipedia , Then we search for the available words.
 
 
 
-REQUIREMENTS
+# REQUIREMENTS
 -->VISUAL STUDIO 2010
 
 
 
-FOR EXECUTION OF THE PROGRAM --------------------------------------------------------------------------------
+# FOR EXECUTION OF THE PROGRAM --------------------------------------------------------------------------------
 
 STEP 1 OPEN VISUAL STUDIO 2010 CLICK FILE
 
