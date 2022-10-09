@@ -28,19 +28,7 @@ Keshav Parihar (214101025)
 
 Mohit Kumar (214101029)
 
-**TABLE OF CONTENT**
 
-> **1.Abstract**
->
-> **2.Introduction**
->
-> **3.Proposed Methodology**
->
-> **4.Experimental Setup**
->
-> **5.Result**
->
-> **6.Source code**
 
 **ABSTRACT**
 
@@ -167,7 +155,9 @@ the logic. The prerequisites of this project are
 
 **EXPERIMENTAL SETUP**
 
-This project is divided into following modules: **1.Training Module**
+This project is divided into following modules: 
+
+**1.Training Module**
 
 **2.Testing Module**
 
@@ -175,21 +165,11 @@ This project is divided into following modules: **1.Training Module**
 
 > The flow for training over data is as follows:
 
-+-------+-------------------------------------------------------------+
-| i\.   | > Record the data as 30 utterance of each word              |
-+=======+=============================================================+
-| ii\.  | > Extract frames for every utterance                        |
-+-------+-------------------------------------------------------------+
-| iii\. | Using local distance analysis (in vector quantization)      |
-|       | calculate the observation                                   |
-+-------+-------------------------------------------------------------+
-| iv\.  | > sequence.                                                 |
-+-------+-------------------------------------------------------------+
-|       | > Pass this observation sequence to HMM for model           |
-|       | > designing.                                                |
-+-------+-------------------------------------------------------------+
-| v\.   | > Now enhance the model using HMM re-estimation algorithm.  |
-+-------+-------------------------------------------------------------+
+1. Record the data as 30 utterance of each word 
+1. Extract frames for every utterance 
+1. Using local distance analysis (in vector quantization) calculate the observation sequence. 
+1. Pass this observation sequence to HMM for model designing. 
+1. Now enhance the model using HMM re-estimation algorithm. 
 
 > Now reference model is ready for our project. The training of data is
 > not integrated with GUI application. This is different module, which
@@ -197,37 +177,16 @@ This project is divided into following modules: **1.Training Module**
 
 **2.Testing Module**
 
-+--------+-----------------------------+-----------------------------+
-| **3.** | > System will give          |                             |
-|        | > instruction what is going |                             |
-|        | > on and user is required   |                             |
-|        | > to                        |                             |
-+========+=============================+=============================+
-|        | > follow it. The flow of    |                             |
-|        | > testing is as follows:    |                             |
-+--------+-----------------------------+-----------------------------+
-|        | i\.                         | > Live recording of data is |
-|        |                             | > done when system          |
-|        |                             | > instruct.                 |
-+--------+-----------------------------+-----------------------------+
-|        | ii\.                        | ii\. Testing the data with  |
-|        |                             | retrained models.           |
-+--------+-----------------------------+-----------------------------+
-|        | iii\.                       | > Detect the Search Engine  |
-+--------+-----------------------------+-----------------------------+
-|        | iv\.                        | iv\. Detect the word which  |
-|        |                             | has to be search            |
-+--------+-----------------------------+-----------------------------+
-|        | v\.                         | v\. If word is correctly    |
-|        |                             | spoken then it opens        |
-|        |                             | browser.                    |
-+--------+-----------------------------+-----------------------------+
-|        | vi\.                        | vi\. If wrong word detected |
-|        |                             | then ,record the input      |
-|        |                             | again.                      |
-+--------+-----------------------------+-----------------------------+
-|        | > **WORDS USED**            |                             |
-+--------+-----------------------------+-----------------------------+
+System will give instruction what is going on and user is required to follow it. The flow of testing is as follows: 
+
+1. Live recording of data is done when system instruct. 
+2. Testing the data with retrained models. 
+3. Detect the Search Engine  
+4. Detect the word which has to be search 
+5. If word is correctly spoken then it opens browser. 
+6. If wrong word detected then ,record the input again. 
+
+**WORDS   USED**\ 
 
 **1.START**\
 **2.STOP**\
