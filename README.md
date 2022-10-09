@@ -2,8 +2,7 @@
 
 > **Indian Institute of Technology, Guwahati**
 
-![](IMAGES/media/image1.png){width="0.925in"
-height="0.9305555555555556in"}
+![](IMAGES/media/image1.png)
 
 > Department of Computer Science and Engineering
 
@@ -164,8 +163,7 @@ the logic. The prerequisites of this project are
 > With the availability of above tools, we further proceeded. Below is
 > the flow chart for our project
 
-![](IMAGES/media/image2.png){width="6.376388888888889in"
-height="9.0249989063867in"}
+![](IMAGES/media/image2.png)
 
 **EXPERIMENTAL SETUP**
 
@@ -246,18 +244,15 @@ This project is divided into following modules: **1.Training Module**
 
 **INITIAL WINDOW**
 
-![](IMAGES/media/image3.png){width="6.423611111111111in"
-height="3.4972222222222222in"}
+![](IMAGES/media/image3.png)
 
 **WINDOW AFTER START**
 
-![](IMAGES/media/image4.png){width="6.423611111111111in"
-height="3.4680544619422573in"}
+![](IMAGES/media/image4.png)
 
 **CLICK TARIN BUTTON**
 
-![](IMAGES/media/image5.png){width="6.423611111111111in"
-height="3.486111111111111in"}
+![](IMAGES/media/image5.png)
 
 **RESULT**\
 For offline testing, we took 30 recordings of each word, with
